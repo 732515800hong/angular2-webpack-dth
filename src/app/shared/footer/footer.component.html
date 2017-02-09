@@ -1,0 +1,14 @@
+<!--底部导航-->
+<section class="index_bottom_nav_box clearfix">
+  <div class="i_b_n_b_div clearfix">
+    <span [ngClass]="{'i_i_a_img_1_click':curUrl == '/main/home'}" class="pull-left i_i_a_img_base i_i_a_img_1"
+      [routerLink]="['/main/home']"></span>
+    <span [ngClass]="{'i_i_a_img_2_click':curUrl == '/main/product'}" class="pull-left i_i_a_img_base i_i_a_img_2"
+      [routerLink]="['/main/product']"></span>
+    <span [ngClass]="{'i_i_a_img_3_click':curUrl == '/main/center'}" class="pull-left i_i_a_img_base i_i_a_img_3">
+      <!--<i class="ci_th_t_d_img_6_dian i_i_a_img_3_dian" *ngIf="(noticenum + systemnum)>0"></i>-->
+    </span>
+    <span [ngClass]="{'i_i_a_img_4_click':curUrl == '/main/more'}" class="pull-left i_i_a_img_base i_i_a_img_4 ">
+    </span>
+  </div>
+</section>
