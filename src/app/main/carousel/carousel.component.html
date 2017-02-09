@@ -1,0 +1,14 @@
+<div class="ai_b_box">
+  <div class="ai_b_b_img" carousel-slider [radius]="radius" [size]="values?values.length:0" [style.height.px]="(window.innerWidth/640)*255">
+    <div class="fl" *ngFor="let value of values; let i = index;">
+      <div class=" pull-left" style='background-color:#d9d9d9;' [style.width.px]="window.innerWidth" [style.height.px]="(window.innerWidth/640)*255">
+        <img style="border:0;" [src]="value.AdImage" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+  <div class="i_b_b_span" *ngIf="radius">
+    <span *ngFor="let radiu of radius">
+      <i [ngClass]="{'i_b_b_span_click': radiu.active}"></i>
+    </span>
+  </div>
+</div>

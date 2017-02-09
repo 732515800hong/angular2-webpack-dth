@@ -1,0 +1,224 @@
+html{ overflow-x:  hidden; }
+video::-webkit-media-controls {
+  z-index: 2147483647;
+}
+.index_bottom_nav_box{z-index: 9;}
+.vis_hid{visibility: hidden;}
+.home_product_list_animate,.px_tw_c_d_bot_o,transition,.css_transition{ -webkit-transition:0.3s all ease; transition:0.3s all ease; }
+.ps_but,.cal_bot{z-index: 10;   }
+.px_tw_c_d_bot_o{height:0px;}
+.ps_t_t_g_b_o,.ls_t_m_m_g_b_o{width:0px;}
+/*.header_box,.cms_b_c_tit,.cms_b_c_con{font-family: '微软雅黑'} */
+.aqs_img{text-align: center;}
+.body_bg{ background-color: #f2f0ee}
+.baozhanglogo{min-height: 83px;width:83px; display: inline-block;margin:20px 0;}/*保障机构*/
+.cms_b_c_con{overflow-y: auto; text-align: justify; z-index: 99;-webkit-overflow-scrolling: touch;word-break:  break-all; }/*消息页面滚动*/
+.prod_dtal_l_pho img,.max_img,.px_t_con img{max-width:100%;} 
+.pos_fix{position:relative;width:100%;z-index:9;}
+.setinputwidth{width:66%;}/*修改密码*/
+/*.zhs_h_icon{position: fixed;z-index: 99; padding-right: 20px;right:0px;width:60px;}*/
+.cbc_hg{border-bottom: none;}
+.oys_b_bg{width:280px;}
+.schedule_animate{ 
+    animation:showschedule 0.5s forwards; 
+    -webkit-animation:showschedule 0.5s forwards; /* Safari 和 Chrome */
+}
+.abt_b_h_17cir{background: url(../img/index/about-17cir.jpg) no-repeat;background-size:cover;}
+.abt_b_h_dot17{background: #e872fe;}
+.abt_b_h_17{ color: #e872fe;}
+@keyframes showschedule
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@-webkit-keyframes showschedule
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+.oq_b_b_concent_li_right { 
+    width: 40px;
+    height: 17px;
+    background-color: #fe8d1e;
+    color: #FFFFFF;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 12px; 
+    font-size: 10px;
+}
+.oq_b_b_concent_li_right1 {
+    width: 40px;
+    height: 17px;
+    color: #FFFFFF;
+    line-height: 17px;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 12px;
+    font-size: 10px;
+}
+/*资讯中心的消息超出隐藏*/
+.cms_b_d_con{height:17px;overflow: hidden;} 
+.cms_b_d_con > p{	 
+	width: 99%;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;}
+
+.css_rp_ad_move{width:410px;}
+.ps_t_r_mid{width:80px;}
+.use_rpcard{
+    -webkit-transform: translate3d(0,-350px,0) scale(0.7,1) ;
+    -moz-transform: translate3d(0,-350px,0) scale(0.7,1) ;
+    -o-transform: translate3d(0,-350px,0) scale(0.7,1) ;
+    transform: translate3d(0,-350px,0) scale(0.7,1) ; 
+}
+.ls_t_t_l_icon{
+	background-image: url(../img/index/ls_chui.png);  
+}
+.ls_t_t_l_icon_1{  
+	background-image: url(../img/index/ls_pang.png);
+}
+.ls_t_t_l_icon_2{
+	background-image: url(../img/index/ls_zuan.png);
+}
+.ls_t_t_l_icon_3{
+	background-image: url(../img/index/ls_chui.png);
+}
+.c_i_h_l_icon_gray{left:11.5px}
+.btn_active,.pay_b_btn:active,.ps_b_b_r_but:active{background-color: #EA7334;}
+
+.h_auto{
+    height: auto !important;
+}
+.oys_box{padding-top:10px;}
+.i_noclick{width:100px;}/*顶部右边区域无法返回的问题*/ 
+.zzy_jiantou{top:15px;}
+.abt_t_arr_up{ 
+transform:rotate(180deg);
+-ms-transform:rotate(180deg); 	/* IE 9 */
+-moz-transform:rotate(180deg); 	/* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg); 	/* Opera */
+} 
+.pay_b_inp,.dep_inp{line-height: normal; }
+.gs_tit{border-top:none;}
+.zzy_oys_box{padding-bottom: 20px;}
+.pullDown{height:40px; } 
+.i_b_b_span i{
+	width: 7px;
+	height: 7px;
+}
+body,a{-webkit-tap-highlight-color:transparent; } 
+.js_selectpayment,.clickactive,.ng-click-active{background-color: #eee;}
+.ng-btnclick-active{ background-color: #2aa7d8;}
+.ng-nobgm{-webkit-tap-highlight-color:transparent;}
+.cms_b_d_tit_1{line-height: 38px;}
+.cms_b_d_t_left{width:57%; max-width: 57%; } 
+  .cms_c_div
+  {
+      padding: 6px 20px;
+  }
+.ses_m_yuan{right: 1px;}
+.ses_m_yuan_gray{ -webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0);right:5px;}
+.sms_m_yuan_active_olor{color: #fe752f;}
+.sms_m_yuan_active{background-image: url(../img/index/sms_hover.png);color: #fe752f;}
+.fontoverhidden{    
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: inline-block;
+    word-break:keep-all;
+    white-space:nowrap;
+    width: 62%; 
+}
+.textalignleft{text-align: left;}
+.lrs_c_div{line-height: 45px;}
+.lrs_c_d_input{font-size: 14px;}
+.cys_tan{text-align: left;}
+.is_ad img{display: block;}/*解决弹出广告下面的白边*/
+.cr_b_b_m_li{height: 23px;}
+.login_bg{background-image: url('../img/index/login_bg.jpg'); background-size: cover;}
+.register_bg{background-image: url('../img/index/register_bg.jpg'); background-size: cover;}
+.newbgcolor{background-color: #fefae5;}
+.cms_box_zzy{padding-top:10px;} /*更多首页*/
+/*单品页的还款方式换行*/
+.product_repaymenttype{width: 55px;word-break: normal;word-wrap: break-word;display: inline-block;}
+.qrs_r_t_d_span{padding:0 15px;}
+/* 资讯中心的红点 */
+.zzy_hongdian{top:-36px;right: -32px;}
+.allwidth{width:100%;}
+.y_d_left{margin-top:1.7%;}/*引导*/
+.zzy_padleft{padding-left: 30px;} 
+.blackcolor{color:black;}
+.word_wrap{word-wrap: break-word;word-break: break-all;  }
+.zzy_zhanwei{height:20px;}
+.s_bot{z-index: 999;}
+/* 客服聊天的img换行 */
+.s_c_r_bot span{ word-break:  break-all;  }
+.s_c_r_bot span img{max-width: 100%;}
+.noimg_input{margin-left: 10px; width:80%;} /*客服页面的文本框位置*/
+.text_ellipsis{
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+}
+.text_ellipsis_normal{ 
+    overflow: hidden;  word-break:  break-all;
+    text-overflow: ellipsis;  
+}
+.rq_c_t_r_top{max-width: 190px;     }
+.cal_t_d_l{width:30%;}
+.default_bg{background-color: #f3f1ef;}
+.cit_tan_close_animate{	animation: dai 2s;	-webkit-animation: dai 2s;}
+.ct_tan{position: absolute;}/*实名成功体验金弹出框在小酷派无法点击*/ 
+.abt_b_h_green{color: green;	line-height:64px;}
+.abt_b_h_dot_green{color: green;background:green;}
+.abt_b_h_dot_green_big{background: green;  top: 28px; border-radius: 100%;}  
+.qiandaoactive{    
+    background-color: #ebebeb;border: 1px solid #ebebeb;  }
+    .qrs_rili_box{position: relative;top:-50px;}
+    .c_y_bot_yaoqing{  bottom: 0px;}
+    .q_t_w{line-height: 24px;height:24px}
+    .ios .q_t_w{line-height: 22px;height:22px}
+/*充值投资失败成功页的*/
+.pqs_con p {margin-bottom:10px;}
+/*.pqs_c_y{display:block;line-height: 30px;height: 30px;}*/
+.zzy_cys_but{width:280px;margin:0px auto;padding:15px 0px;height: 65px; background-color: #fdd99f;}
+.zzy_cb_b_b_t_c_lan{color: #60d8ff;} 
+.bsl_t_b_icon{
+	background-image: url(/img/close.png);
+	width: 15px;
+	height: 15px;
+	background-size: cover;
+	margin-top: 18px;
+}
+.div_c_wen{width:60px;height:60px;position: absolute; top: 0px;  right: 0px;}
+.dep_tc_con_huo{text-align: justify;}
+/*精选页的箭头*/
+.home_jiantou{ position: absolute;top:55px; height:150px;width: 50px;}
+copy{display: inline-block;}
+ /*苹果手机6Plus*/
+@media screen and (max-width: 414px) 
+{ 
+.qrs_rili_box{top:-60px;}
+.citl_t{top:8%;}
+}
+ /*苹果手机6*/
+@media screen and (max-width: 375px) 
+{
+.qrs_rili_box{top:-55px;}
+.cms_b_d_t_left{width:52%; max-width: 52%;}  
+.fontoverhidden{width:60%;}
+.rq_c_t_r_top{max-width: 170px;}
+.citl_t{top:9%;}
+}
+ /*苹果手机5以下小手机宽度小于等于320*/
+@media screen and (max-width: 320px) 
+{
+.cal_t_d_l{font-size: 14px;}
+.cms_b_d_t_left{width:52%; max-width: 52%;}  
+.fontoverhidden{width:60%;}
+/*.rq_c_t_r_top{max-width: 135px;}*/
+.citl_t{top:11%;}
+}
